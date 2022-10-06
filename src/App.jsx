@@ -7,7 +7,7 @@ import Services from './Services'
 import Products from './Products'
 import SignUp from './Sign-up'
 
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 function App() {
   
@@ -15,12 +15,12 @@ function App() {
   return (
     <Router>
       <Navbar/>
-    <Routes>
+    <Switch>
      <Route path="/" exact component = {Home}/>
      <Route path="/services" exact component = {Services}/>
      <Route path="/products" exact component = {Products}/>
      <Route path="/sign-up" exact component = {SignUp}/>
-</Routes>
+</Switch>
     </Router>
   )
 }
