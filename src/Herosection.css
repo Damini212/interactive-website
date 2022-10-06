@@ -7,7 +7,7 @@
   font-size: 40px;
 }
 .hero-section {
-  background-image: url("img-home.jpeg");
+  background-image: url("../public/img-home.jpeg");
   height: 100vh;
 }
 .hero-container {
