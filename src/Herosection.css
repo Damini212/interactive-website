@@ -1,0 +1,43 @@
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 80px;
+}
+.subtitle {
+  font-size: 40px;
+}
+.hero-section {
+  background-image: url("img-home.jpeg");
+  height: 100vh;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.start-btn,
+.watch-btn {
+  height: 50px;
+  width: 210px;
+  font-size: 20px;
+}
+.watch-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.start-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  color: white;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
